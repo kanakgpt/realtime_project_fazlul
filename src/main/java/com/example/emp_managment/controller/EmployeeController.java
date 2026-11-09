@@ -1,7 +1,7 @@
 package com.example.emp_managment.controller;
 
-import com.example.emp_managment.dto.EmployeeRequest;
-import com.example.emp_managment.dto.EmployeeResponse;
+import com.example.emp_managment.dto.EmployeeDTO.EmployeeRequest;
+import com.example.emp_managment.dto.EmployeeDTO.EmployeeResponse;
 import com.example.emp_managment.service.EmployeeService;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import java.util.List;
 
